@@ -25,5 +25,5 @@ RUN mkdir -p /app/notebooks
 #Mặc định mở cổng 8888 cho Jupyter
 EXPOSE 8888
 
-Khởi chạy Jupyter Notebook khi container start, sử dụng token mặc định
+#Khởi chạy Jupyter Notebook khi container start, sử dụng token mặc định
 CMD ["bash", "-c", "neofetch && jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root"]
