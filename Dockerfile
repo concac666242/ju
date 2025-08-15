@@ -1,5 +1,5 @@
 #Base Ubuntu image
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 #Tắt prompt cài đặt
 ARG DEBIAN_FRONTEND=noninteractive
