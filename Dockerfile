@@ -14,7 +14,6 @@ RUN apt update && apt install -y \
 
 #Cài đặt Jupyter Notebook
 RUN pip3 install --upgrade pip
-    pip3 install --no-cache-dir jupyter
 
 #Copy source code nếu có
 COPY . /app
